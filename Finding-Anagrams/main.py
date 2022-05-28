@@ -3,6 +3,7 @@
 # find_anagrams("hello", "check") --> False
 # find_anagrams("below", "elbow") --> True
 
+# accept user inputs for the two words to be checked
 user_input1 = input("Enter first word: ")
 user_input2 = input("Enter second word: ")
 

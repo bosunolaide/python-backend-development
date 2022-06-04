@@ -5,6 +5,8 @@ import string
 # count_words("The cake is done. It is a big cake!") 
 # --> {"cake":2, "big":1, "is":2, "the":1, "a":1, "it":1}
 
+filename = input("Please input filename: ")
+
 def read_file_content(filename):
     # Open text file in read mode
     text_file = open(filename, "r")
@@ -20,7 +22,7 @@ def read_file_content(filename):
 
 def count_words():
     # Read text file
-    text = read_file_content("./story.txt")
+    text = read_file_content(filename)
 
     # Remove all punctuations from text
     new_text = text.translate(str.maketrans('', '', string.punctuation))

@@ -1,2 +1,2 @@
 # WORKING WITH APIS
-A URL Shortener Service app that demonstrates API functionality using the Django Rest Framework. 
+A URL Shortener Service app, which demonstrates API functionality, using the Django Rest Framework. 
